@@ -1,9 +1,9 @@
-#Rock Paper Scissors – Hand Gesture Recognition 
+# Rock Paper Scissors – Hand Gesture Recognition 
 
 This project is an interactive Rock, Paper, Scissors game built with Python, OpenCV, and MediaPipe.
 You play against the computer using your hand gestures in front of your webcam!
 
-#Features
+## Features
 
 Real-time hand tracking using MediaPipe Hands.
 
@@ -15,20 +15,19 @@ Displays results (Win, Lose, or Draw) on the video feed.
 
 Simple and fun computer opponent.
 
-#Requirements
+## Requirements
 
 Make sure you have Python 3.7+ installed, then install the dependencies:
 
 pip install opencv-python mediapipe
 
-#How to Play
+## How to Play
 
 Clone or download this repository.
 
 Run the Python script:
 
 python play.py
-
 
 When the game window opens:
 
@@ -42,7 +41,7 @@ Results are displayed on the screen.
 
 Press ESC anytime to quit.
 
-#Recognized Gestures
+## Recognized Gestures
 
 Rock → Closed fist
 
@@ -52,12 +51,12 @@ Scissors → Index and middle finger up, others down
 
 If your gesture is unclear, it will register as UNKNOWN.
 
-#Project Structure
+## Project Structure
 rock-paper-scissors/
 │── play.py        # Main script (game logic + gesture detection)
 │── README.md      # Project documentation
 
-#Example Gameplay
+## Example Gameplay
 
 When you press space:
 
@@ -67,7 +66,7 @@ After 3 seconds, show your gesture.
 
 Game compares your move vs computer’s move and shows result.
 
-#Future Improvements
+## Future Improvements
 
 Add score tracking (Player vs Computer).
 
